@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Optima;
-  background-color: #FCF7FF;
+  background-color: #E4D4C8  ;
 }
 
 .center {
@@ -23,14 +23,15 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #655560;
+  background: #533440
+  ;
   padding: 2%;
   text-align: center;
 
 }
 
 .panel {
-  background-color: #655560;
+  background-color: #9DB6CC  ;
   color: #FCF7FF;
 
   width: 100%;
@@ -50,7 +51,8 @@ header {
 
 footer {
   display: flex;
-  background-color: #655560;
+  background-color: #533440
+  ;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -64,7 +66,7 @@ footer {
 }
 
 .leftFooter {
-  color: #655560;
+  color: #A47786;
   font-size: 14px;
   margin: auto;
   padding-right: 30%;
@@ -73,7 +75,7 @@ footer {
 }
 
 .rightFooter {
-  color: #655560;
+  color: #A47786;
   font-size: 120%;
   color: white;
 
@@ -97,7 +99,7 @@ a:active {
 }
 
 .rightFooterr {
-  color: #655560;
+  color: #A47786;
   font-size: 120%;
   padding-right: 10%;
   color: white;
@@ -138,7 +140,8 @@ section {
 
 section:nth-child(1) {
   color: #e0ffff;
-  background-color: #e0ffff;
+  background-color: #9DB6CC
+  ;
 
 }
 
@@ -167,7 +170,9 @@ h3 {
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #655560;
+  background-color: #9DB6CC
+
+  ;
 }
 
 /* Style the links inside the navigation bar */
