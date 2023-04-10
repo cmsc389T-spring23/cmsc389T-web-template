@@ -1,8 +1,15 @@
 version: '3'
 
 services:
-  nodejs:
+  nodejs: 
     #fill out the configuration here
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: nodejs-app
+    container_name: nodejs
+    restart: unless-stopped
+
     networks:
       - app-network
   
@@ -28,7 +35,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /Users/jasondevers/Desktop/cmsc389T-web-template
       o: bind
 
 networks:
