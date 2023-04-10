@@ -1,9 +1,10 @@
-name: Delete workflow
+name: update workflow
 on:
-  workflow_dispatch:
+  push:
+    branches: [main]
 jobs:
   job_one:
-    name: Delete
+    name: Update
     runs-on: ubuntu-latest
     steps:
       - name: testing
@@ -14,5 +15,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            unalias rm
-            rm -rf cmsc389T-Project-5
+            cd cmsc389T-Project-5
+            git pull
